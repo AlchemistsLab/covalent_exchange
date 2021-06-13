@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Created by Mehmet Ozdemir on 09.06.2021 18:45
+  ~ Copyright (c) 2021 . All rights reserved.
+  ~ Last modified 09.06.2021 18:35
+  -->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark">
+
+    <ImageView
+        android:id="@+id/image_view_icon"
+        android:layout_width="@dimen/size_medium"
+        android:layout_height="@dimen/size_medium"
+        android:layout_marginStart="@dimen/padding_small"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_view_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/padding_small"
+        android:layout_marginBottom="@dimen/margin_xsmall"
+        android:fontFamily="@font/titillium_bold"
+        android:lines="1"
+        android:maxLines="1"
+        android:text="ETH"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size_medium"
+        app:layout_constraintStart_toEndOf="@id/image_view_icon"
+        app:layout_constraintTop_toTopOf="@id/image_view_icon" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_view_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:fontFamily="@font/titillium_bold"
+        android:lines="1"
+        android:maxLines="1"
+        android:text="Ethereum"
+        android:textColor="@color/colorGray"
+        android:textSize="@dimen/text_size_xsmall"
+        app:layout_constraintBottom_toBottomOf="@id/image_view_icon"
+        app:layout_constraintStart_toStartOf="@+id/text_view_code"
+        app:layout_constraintTop_toBottomOf="@id/text_view_code" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_view_rank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/padding_small"
+        android:fontFamily="@font/titillium_bold"
+        android:gravity="center"
+        android:text="100"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/text_size_medium"
+        app:layout_constraintBottom_toBottomOf="@id/text_view_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/text_view_code" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/padding_small"
+        android:background="#20272C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image_view_icon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

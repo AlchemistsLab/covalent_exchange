@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by Mehmet Ozdemir on 09.06.2021 18:45
+  ~ Copyright (c) 2021 . All rights reserved.
+  ~ Last modified 09.06.2021 18:11
+  -->
+
+<resources>
+    <color name="colorPrimary">#00D8D5</color>
+    <color name="colorPrimaryDark">#000427</color>
+    <color name="colorAccent">#FF4C8B</color>
+
+    <color name="colorGray">#F9F9F9</color>
+</resources>

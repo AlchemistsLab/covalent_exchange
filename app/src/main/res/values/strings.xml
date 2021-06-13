@@ -1,0 +1,29 @@
+<!--
+  ~ Created by Mehmet Ozdemir on 09.06.2021 18:45
+  ~ Copyright (c) 2021 . All rights reserved.
+  ~ Last modified 09.06.2021 18:08
+  -->
+
+<resources>
+    <string name="app_name">CovalentExchange</string>
+
+    <string name="covalent_services_base_url" translatable="false">https://api.covalenthq.com</string>
+    <string name="covalent_services_api_key" translatable="false">ckey_2000734ae6334c75b8b44b1466e:</string>
+
+    <string name="text_price_history">Price History</string>
+    <string name="text_rank">Rank</string>
+    <string name="text_name">Name</string>
+    <string name="text_go">Go</string>
+    <string name="text_value">Value</string>
+    <string name="text_date">Date</string>
+    <string name="text_view_on_chart">View on Chart</string>
+
+    <string name="text_enter_wallet_address">Please enter your ETH wallet address and tap the Go button</string>
+
+    <string name="toast_text_enter_wallet_address">Please enter an ETH wallet address</string>
+    <string name="toast_text_wallet_address_error">Please check your ETH wallet address and try again</string>
+
+    <string name="hint_eth_wallet_address">ETH Wallet Address</string>
+
+    <string name="toast_text_data_not_found">Data not found</string>
+</resources>
